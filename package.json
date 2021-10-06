@@ -1,0 +1,36 @@
+{
+  "name": "omegapaulo",
+  "version": "0.0.1",
+  "description": "Developer portfolio",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/omegapaulo/omegapaulo-ws.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "scss",
+    "css",
+    "nodejs",
+    "express"
+  ],
+  "author": "Omega Paulo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omegapaulo/omegapaulo-ws/issues"
+  },
+  "homepage": "https://github.com/omegapaulo/omegapaulo-ws#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
