@@ -12,9 +12,9 @@ app.use(express.static(path.join(__dirname, 'frontend/static')));
 console.log(__dirname);
 
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'frontend/static', 'index.html'));
+  res.sendFile(path.join(__dirname, 'frontend/static', 'index.html'));
 });
 
 app.listen(process.env.PORT, () => {
-    console.log(`App listening on port ${process.env.PORT}`);
+  console.log(`App listening on port ${process.env.PORT}`);
 });

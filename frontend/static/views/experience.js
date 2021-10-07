@@ -1,6 +1,6 @@
 export const renderExperience = () => {
-    const content = `
+  const content = `
     <h1>This is the experience page</h1>
 `;
-    document.querySelector('#app').innerHTML = content;
+  document.querySelector('#app').innerHTML = content;
 };
